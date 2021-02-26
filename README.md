@@ -1,6 +1,9 @@
+# SampleSwipe
 
-<img src="icon.png" align="right" />
+## 概要
 
-# 初めてのREADME
+このプロジェクトは午前中に暇だったから作ったSwiftUI練習用プロジェクトです。
+卒業制作でもないし、提出課題でもありません。
 
-## READMEの練習です。
+参考文献は[こちらの動画](https://www.youtube.com/watch?v=wxvtJuR_erU)です。
+KavsoftさんはSwiftUIのチュートリアル動画を多数アップロードしており、未だに参考にしています。
