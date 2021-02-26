@@ -13,6 +13,7 @@
 		CF8F6CF825E889B900F7311E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CF8F6CF725E889B900F7311E /* Preview Assets.xcassets */; };
 		CF8F6D0325E889B900F7311E /* SampleSwipeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F6D0225E889B900F7311E /* SampleSwipeTests.swift */; };
 		CF8F6D0E25E889B900F7311E /* SampleSwipeUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F6D0D25E889B900F7311E /* SampleSwipeUITests.swift */; };
+		CF8F6D1F25E88A0F00F7311E /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = CF8F6D1E25E88A0F00F7311E /* Home.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,7 @@
 		CF8F6D0925E889B900F7311E /* SampleSwipeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleSwipeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CF8F6D0D25E889B900F7311E /* SampleSwipeUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleSwipeUITests.swift; sourceTree = "<group>"; };
 		CF8F6D0F25E889B900F7311E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CF8F6D1E25E88A0F00F7311E /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 		CF8F6CEF25E889B900F7311E /* SampleSwipe */ = {
 			isa = PBXGroup;
 			children = (
+				CF8F6D2325E88A1300F7311E /* View */,
 				CF8F6CF025E889B900F7311E /* SampleSwipeApp.swift */,
 				CF8F6CF225E889B900F7311E /* ContentView.swift */,
 				CF8F6CF425E889B900F7311E /* Assets.xcassets */,
@@ -128,6 +131,14 @@
 				CF8F6D0F25E889B900F7311E /* Info.plist */,
 			);
 			path = SampleSwipeUITests;
+			sourceTree = "<group>";
+		};
+		CF8F6D2325E88A1300F7311E /* View */ = {
+			isa = PBXGroup;
+			children = (
+				CF8F6D1E25E88A0F00F7311E /* Home.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,6 +271,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CF8F6CF325E889B900F7311E /* ContentView.swift in Sources */,
+				CF8F6D1F25E88A0F00F7311E /* Home.swift in Sources */,
 				CF8F6CF125E889B900F7311E /* SampleSwipeApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
